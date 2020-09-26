@@ -1,0 +1,29 @@
+.toolbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(24, 64, 87);
+}
+
+
+.toolbar-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-icon{
+    padding-right: 10px;
+}
+
+.input{
+    color: white !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input-button{
+    background-color: white !important;
+    color: rgb(24, 64, 87);
+}
