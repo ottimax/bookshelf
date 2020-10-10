@@ -14,6 +14,7 @@ import Center from 'react-center'
 
 // IMPORT CSS
 import './books.css'
+import Footer from '../components/Footer';
 
 
 export default function Books() {
@@ -58,7 +59,9 @@ export default function Books() {
 
     const errorMessage = (
         <div className="error-div">
-            <p>{message}</p>
+            <div className="error-div-content">
+                <h1>{message}</h1>
+            </div>
         </div>
     );
 
@@ -69,7 +72,7 @@ export default function Books() {
     if (message) {
         return (errorMessage);
     }
-    else if(books){
+    else if (books) {
         return (
             <Grid container direction="row" justify="center" alignItems="center" wrap="wrap" style={{ margin: "120px 0 120px" }}>
                 {booksCard}

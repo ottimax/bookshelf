@@ -1,0 +1,38 @@
+.book-page{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-page-content{
+    width: 1000px;
+    text-align: center;
+    background-color: #660066;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 30px;
+    -webkit-box-shadow: 8px 8px 4px 0px rgba(0,0,0,0.80);
+    -moz-box-shadow: 8px 8px 4px 0px rgba(0,0,0,0.80);
+    box-shadow: 8px 8px 4px 0px rgba(0,0,0,0.80);
+
+}
+
+.book-page img{
+    padding-top: 5px;
+    width: 200px;
+    height: 300px;
+}
+
+.book-page h1,h4,h5{
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.book-page h1{
+    font-style: italic;
+}
+
+

@@ -1,11 +1,22 @@
-.book{
-    width: 200px;
-    height: 500px;
-    border: 2px solid  #7AFAE3;
-    background-color: #7AFAE3;
+.bookcard{
+    width: 250px;
+    height: 400px;
+    background-color:#660066;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
 }
 
-.book img{
+.bookcard h3{
+    color: white;
+    padding-top: 5px;
+}
+
+.bookcard img{
+    padding-top: 10px;
     width: 100%;
-    height: 50%;
+    height: 350px;
+    border-radius: 0 0 30px 30px;
 }

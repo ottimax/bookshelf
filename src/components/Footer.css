@@ -1,0 +1,28 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 10vh;
+    background-color: #660066;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  
+  .social-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-footer img{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+  }
+  
+  
+  footer h5{
+    color: white;
+  }
