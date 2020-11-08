@@ -16,6 +16,7 @@ import BookCard from './components/BookCard';
 import Footer from './components/Footer';
 
 function App() {
+
   return (
     <Router>
       <div className="App">
@@ -23,7 +24,7 @@ function App() {
       </div>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/books/" component={Books} />
+        <Route exact path="/books/:search" component={Books} />
         <Route path="/book/:id" component={Book} />
       </Switch>
       <Footer/>
