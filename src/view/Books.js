@@ -38,10 +38,8 @@ export default function Books() {
     }, [])
 
     // GET THE PARAMS FROM URL
-    // const query = new URLSearchParams(useLocation().search);
-    // const search = query.get("search");
-
-    const {search} = useParams() 
+    const query = new URLSearchParams(useLocation().search);
+    const search = query.get("search");
 
     const api = `https://www.googleapis.com/books/v1/volumes?q=${search}&maxResults=40&key=${apiKey}`;
 

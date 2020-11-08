@@ -31,7 +31,7 @@ export default function AppBar() {
                 <div className="home-div"><Link to="/"><HomeIcon className="home-icon" fontSize="large" /></Link></div>
                 <div className="toolbar-content">
                     <SearchIcon className="search-icon" fontSize="large" />
-                    <form action={`/books/`} method="GET">
+                    <form action={`/books`} method="GET">
                         <InputBase  className="input" type="text" name="search" placeholder="Cerca Libro" onChange={andleSearch} required={true}/>
                         <Button type="submit" className="input-button" variant="contained">
                             Cerca
